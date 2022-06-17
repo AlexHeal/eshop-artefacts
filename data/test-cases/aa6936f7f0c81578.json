@@ -1,0 +1,748 @@
+{
+  "uid" : "aa6936f7f0c81578",
+  "name" : "verify text in order toasts",
+  "fullName" : "alexheal.eshop.tests.web.OrderTests.orderTest",
+  "historyId" : "34d252594ae94301ef884fc2b4ba8d6a",
+  "time" : {
+    "start" : 1655462681388,
+    "stop" : 1655462750209,
+    "duration" : 68821
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1655462681383,
+      "stop" : 1655462681384,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "open HomePage",
+      "time" : {
+        "start" : 1655462681389,
+        "stop" : 1655462686624,
+        "duration" : 5235
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") http://51.132.209.113",
+        "time" : {
+          "start" : 1655462681390,
+          "stop" : 1655462686602,
+          "duration" : 5212
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1655462681390,
+            "stop" : 1655462682711,
+            "duration" : 1321
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\".esh-app-header\") should have(css value height=464px)",
+        "time" : {
+          "start" : 1655462686603,
+          "stop" : 1655462686624,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "click 'Login'",
+      "time" : {
+        "start" : 1655462686624,
+        "stop" : 1655462688119,
+        "duration" : 1495
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".esh-identity-name\") click()",
+        "time" : {
+          "start" : 1655462686624,
+          "stop" : 1655462688119,
+          "duration" : 1495
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "authorization",
+      "time" : {
+        "start" : 1655462688119,
+        "stop" : 1655462689101,
+        "duration" : 982
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#Email\") set value(de* - email)",
+        "time" : {
+          "start" : 1655462688119,
+          "stop" : 1655462688259,
+          "duration" : 140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#Password\") set value(**********)",
+        "time" : {
+          "start" : 1655462688259,
+          "stop" : 1655462688379,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#Password\") press enter()",
+        "time" : {
+          "start" : 1655462688379,
+          "stop" : 1655462689101,
+          "duration" : 722
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "add item 0 to basket",
+      "time" : {
+        "start" : 1655462689101,
+        "stop" : 1655462690765,
+        "duration" : 1664
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".esh-catalog-item[0]\") hover()",
+        "time" : {
+          "start" : 1655462689104,
+          "stop" : 1655462690697,
+          "duration" : 1593
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".esh-catalog-item[0]\") click()",
+        "time" : {
+          "start" : 1655462690697,
+          "stop" : 1655462690765,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "index",
+        "value" : "0"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "click 'Basket'",
+      "time" : {
+        "start" : 1655462690765,
+        "stop" : 1655462691167,
+        "duration" : 402
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".esh-basketstatus-image\") click()",
+        "time" : {
+          "start" : 1655462690765,
+          "stop" : 1655462691167,
+          "duration" : 402
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "wait header size",
+      "time" : {
+        "start" : 1655462691170,
+        "stop" : 1655462691558,
+        "duration" : 388
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".esh-app-header\") should have(css value height=208px)",
+        "time" : {
+          "start" : 1655462691170,
+          "stop" : 1655462691531,
+          "duration" : 361
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"by tag: h1; by text: [ Shopping Bag ]\") should be(visible)",
+        "time" : {
+          "start" : 1655462691531,
+          "stop" : 1655462691557,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "verify item count - 1 and price - $8.50",
+      "time" : {
+        "start" : 1655462691558,
+        "stop" : 1655462691611,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"checkoutInfo\") should have(text \"(1 items)\")",
+        "time" : {
+          "start" : 1655462691558,
+          "stop" : 1655462691588,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"checkoutInfo\") should have(text \"$8.50\")",
+        "time" : {
+          "start" : 1655462691588,
+          "stop" : 1655462691611,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "count",
+        "value" : "1"
+      }, {
+        "name" : "price",
+        "value" : "$8.50"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "click 'Checkout'",
+      "time" : {
+        "start" : 1655462691611,
+        "stop" : 1655462691876,
+        "duration" : 265
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"by tag: button; by text: Checkout\") hover()",
+        "time" : {
+          "start" : 1655462691611,
+          "stop" : 1655462691733,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"by tag: button; by text: Checkout\") click(method: DEFAULT)",
+        "time" : {
+          "start" : 1655462691733,
+          "stop" : 1655462691876,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "wait header size",
+      "time" : {
+        "start" : 1655462691876,
+        "stop" : 1655462691891,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".esh-app-header\") should have(css value height=208px)",
+        "time" : {
+          "start" : 1655462691876,
+          "stop" : 1655462691891,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "click 'Place Order'",
+      "time" : {
+        "start" : 1655462691891,
+        "stop" : 1655462692297,
+        "duration" : 406
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"by tag: button; by text: Place Order\") hover()",
+        "time" : {
+          "start" : 1655462691891,
+          "stop" : 1655462692242,
+          "duration" : 351
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"by tag: button; by text: Place Order\") click()",
+        "time" : {
+          "start" : 1655462692242,
+          "stop" : 1655462692297,
+          "duration" : 55
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "verify toast - Updated to status: Submitted",
+      "time" : {
+        "start" : 1655462692297,
+        "stop" : 1655462692579,
+        "duration" : 282
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"toast\") should have([text \"Updated to status: Submitted\", 60 s.])",
+        "time" : {
+          "start" : 1655462692298,
+          "stop" : 1655462692579,
+          "duration" : 281
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedToast",
+        "value" : "Updated to status: Submitted"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "verify toast - Updated to status: AwaitingStockValidation",
+      "time" : {
+        "start" : 1655462692579,
+        "stop" : 1655462721811,
+        "duration" : 29232
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"toast\") should have([text \"Updated to status: AwaitingStockValidation\", 60 s.])",
+        "time" : {
+          "start" : 1655462692579,
+          "stop" : 1655462721811,
+          "duration" : 29232
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedToast",
+        "value" : "Updated to status: AwaitingStockValidation"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "verify toast - Updated to status: Validated",
+      "time" : {
+        "start" : 1655462721811,
+        "stop" : 1655462735892,
+        "duration" : 14081
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"toast\") should have([text \"Updated to status: Validated\", 60 s.])",
+        "time" : {
+          "start" : 1655462721811,
+          "stop" : 1655462735892,
+          "duration" : 14081
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedToast",
+        "value" : "Updated to status: Validated"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "verify toast - Updated to status: Paid",
+      "time" : {
+        "start" : 1655462735893,
+        "stop" : 1655462748755,
+        "duration" : 12862
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"toast\") should have([text \"Updated to status: Paid\", 60 s.])",
+        "time" : {
+          "start" : 1655462735893,
+          "stop" : 1655462748755,
+          "duration" : 12862
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedToast",
+        "value" : "Updated to status: Paid"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 37,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1655462748756,
+      "stop" : 1655462750209,
+      "duration" : 1453
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1655462749120,
+        "stop" : 1655462749175,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3aeeb1cfb637c35e",
+      "name" : "Last screenshot",
+      "source" : "3aeeb1cfb637c35e.png",
+      "type" : "image/png",
+      "size" : 454977
+    }, {
+      "uid" : "971fa773aaee9633",
+      "name" : "Page source",
+      "source" : "971fa773aaee9633.html",
+      "type" : "text/html",
+      "size" : 23883
+    }, {
+      "uid" : "c30cd1c78c1762ba",
+      "name" : "Browser console logs",
+      "source" : "c30cd1c78c1762ba.txt",
+      "type" : "text/plain",
+      "size" : 6627
+    }, {
+      "uid" : "6bcbcae78dba3c11",
+      "name" : "Video",
+      "source" : "6bcbcae78dba3c11.mp4",
+      "type" : "video/mp4",
+      "size" : 1018764
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "all"
+  }, {
+    "name" : "tag",
+    "value" : "order"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:alexheal.eshop.tests.web.OrderTests]/[method:orderTest()]"
+  }, {
+    "name" : "feature",
+    "value" : "web"
+  }, {
+    "name" : "layer",
+    "value" : "web"
+  }, {
+    "name" : "story",
+    "value" : "order"
+  }, {
+    "name" : "owner",
+    "value" : "ValeevAA"
+  }, {
+    "name" : "AS_ID",
+    "value" : "10541"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Aleksandr.local"
+  }, {
+    "name" : "thread",
+    "value" : "32340@MacBook-Pro-Aleksandr.local.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "alexheal.eshop.tests.web.OrderTests"
+  }, {
+    "name" : "testClass",
+    "value" : "alexheal.eshop.tests.web.OrderTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderTest"
+  }, {
+    "name" : "suite",
+    "value" : "alexheal.eshop.tests.web.OrderTests"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "ValeevAA",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "all", "web", "order" ]
+  },
+  "source" : "aa6936f7f0c81578.json",
+  "parameterValues" : [ ]
+}

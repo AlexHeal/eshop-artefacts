@@ -1,0 +1,430 @@
+{
+  "uid" : "8d9c313d4ebef377",
+  "name" : "emptyResultTest()",
+  "fullName" : "alexheal.eshop.tests.mobile.FilterTest.emptyResultTest",
+  "historyId" : "12706b0181b5e55a8cfd820ed805bf40",
+  "time" : {
+    "start" : 1655462549031,
+    "stop" : 1655462587613,
+    "duration" : 38582
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1655462508876,
+      "stop" : 1655462508876,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1655462508876,
+        "stop" : 1655462508876,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1655462549032,
+      "stop" : 1655462573646,
+      "duration" : 24614
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") ",
+      "time" : {
+        "start" : 1655462549032,
+        "stop" : 1655462573646,
+        "duration" : 24614
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"webdriver\") create()",
+        "time" : {
+          "start" : 1655462549032,
+          "stop" : 1655462573646,
+          "duration" : 24614
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "authorization",
+      "time" : {
+        "start" : 1655462573646,
+        "stop" : 1655462575900,
+        "duration" : 2254
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"AppiumBy.accessibilityId: LoginButton\") click()",
+        "time" : {
+          "start" : 1655462573647,
+          "stop" : 1655462575900,
+          "duration" : 2253
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "demouser@microsoft.com"
+      }, {
+        "name" : "password",
+        "value" : "Pass@word1"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "click 'Filter'",
+      "time" : {
+        "start" : 1655462575900,
+        "stop" : 1655462578772,
+        "duration" : 2872
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"AppiumBy.accessibilityId: FilterIcon\") click()",
+        "time" : {
+          "start" : 1655462575900,
+          "stop" : 1655462578772,
+          "duration" : 2872
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "set filter brand - NET",
+      "time" : {
+        "start" : 1655462578772,
+        "stop" : 1655462581200,
+        "duration" : 2428
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"AppiumBy.accessibilityId: BrandPicker_Container\") click()",
+        "time" : {
+          "start" : 1655462578772,
+          "stop" : 1655462579852,
+          "duration" : 1080
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: //*[contains(@text, '.NET')]\") click()",
+        "time" : {
+          "start" : 1655462579852,
+          "stop" : 1655462581200,
+          "duration" : 1348
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "brand",
+        "value" : "NET"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "set filter type - Pin",
+      "time" : {
+        "start" : 1655462581200,
+        "stop" : 1655462583974,
+        "duration" : 2774
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"AppiumBy.accessibilityId: TypePicker_Container\") click()",
+        "time" : {
+          "start" : 1655462581200,
+          "stop" : 1655462582128,
+          "duration" : 928
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: //*[contains(@text, 'Pin')]\") click()",
+        "time" : {
+          "start" : 1655462582128,
+          "stop" : 1655462583974,
+          "duration" : 1846
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "type",
+        "value" : "Pin"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "apply filter",
+      "time" : {
+        "start" : 1655462583974,
+        "stop" : 1655462584433,
+        "duration" : 459
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"AppiumBy.accessibilityId: ApplyButton\") click()",
+        "time" : {
+          "start" : 1655462583974,
+          "stop" : 1655462584433,
+          "duration" : 459
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "verify no products found",
+      "time" : {
+        "start" : 1655462584433,
+        "stop" : 1655462585523,
+        "duration" : 1090
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"AppiumBy.accessibilityId: NoProductsFoundLabel\") should have(text \"NO PRODUCTS FOUND\")",
+        "time" : {
+          "start" : 1655462584433,
+          "stop" : 1655462585523,
+          "duration" : 1090
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1655462585524,
+      "stop" : 1655462587613,
+      "duration" : 2089
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1655462586785,
+        "stop" : 1655462587613,
+        "duration" : 828
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "33d5e68e55e64152",
+      "name" : "Last screenshot",
+      "source" : "33d5e68e55e64152.png",
+      "type" : "image/png",
+      "size" : 52656
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "mobile"
+  }, {
+    "name" : "tag",
+    "value" : "all"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:alexheal.eshop.tests.mobile.FilterTest]/[method:emptyResultTest()]"
+  }, {
+    "name" : "layer",
+    "value" : "mobile"
+  }, {
+    "name" : "story",
+    "value" : "filter"
+  }, {
+    "name" : "feature",
+    "value" : "mobile"
+  }, {
+    "name" : "owner",
+    "value" : "ValeevAA"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Aleksandr.local"
+  }, {
+    "name" : "thread",
+    "value" : "32340@MacBook-Pro-Aleksandr.local.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "alexheal.eshop.tests.mobile.FilterTest"
+  }, {
+    "name" : "testClass",
+    "value" : "alexheal.eshop.tests.mobile.FilterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "emptyResultTest"
+  }, {
+    "name" : "suite",
+    "value" : "alexheal.eshop.tests.mobile.FilterTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "ValeevAA",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "all", "mobile" ]
+  },
+  "source" : "8d9c313d4ebef377.json",
+  "parameterValues" : [ ]
+}
