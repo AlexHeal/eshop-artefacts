@@ -1,0 +1,133 @@
+{
+  "uid" : "59314b8f7d168aa9",
+  "name" : "success get items success get items [10, 1, 14]",
+  "fullName" : "alexheal.eshop.tests.api.CatalogTests.successGetItemsTest",
+  "historyId" : "bf0ff6666486beec4822aa997af4aefd",
+  "time" : {
+    "start" : 1655462431035,
+    "stop" : 1655462431337,
+    "duration" : 302
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1655462424661,
+      "stop" : 1655462425231,
+      "duration" : 570
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4f6440e54454aff1",
+      "name" : "Request",
+      "source" : "4f6440e54454aff1.html",
+      "type" : "text/html",
+      "size" : 1591
+    }, {
+      "uid" : "c38d9ffea1735e21",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "c38d9ffea1735e21.html",
+      "type" : "text/html",
+      "size" : 4121
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "api"
+  }, {
+    "name" : "tag",
+    "value" : "all"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:alexheal.eshop.tests.api.CatalogTests]/[test-template:successGetItemsTest(int, int, int)]/[test-template-invocation:#4]"
+  }, {
+    "name" : "story",
+    "value" : "catalog"
+  }, {
+    "name" : "feature",
+    "value" : "api"
+  }, {
+    "name" : "story",
+    "value" : "positive"
+  }, {
+    "name" : "owner",
+    "value" : "ValeevAA"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Aleksandr.local"
+  }, {
+    "name" : "thread",
+    "value" : "32340@MacBook-Pro-Aleksandr.local.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "alexheal.eshop.tests.api.CatalogTests"
+  }, {
+    "name" : "testClass",
+    "value" : "alexheal.eshop.tests.api.CatalogTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "successGetItemsTest"
+  }, {
+    "name" : "suite",
+    "value" : "alexheal.eshop.tests.api.CatalogTests"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "countResult",
+    "value" : "14"
+  }, {
+    "name" : "pageIndex",
+    "value" : "1"
+  }, {
+    "name" : "pageSize",
+    "value" : "10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "ValeevAA",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "all", "api" ]
+  },
+  "source" : "59314b8f7d168aa9.json",
+  "parameterValues" : [ "14", "1", "10" ]
+}

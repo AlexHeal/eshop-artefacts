@@ -1,0 +1,349 @@
+{
+  "uid" : "1f2f081108c2fe5",
+  "name" : "verify filter by type",
+  "fullName" : "alexheal.eshop.tests.web.FilterTests.filterByTypeTest",
+  "historyId" : "aa333ea2704fbe2e5a35cc0633e14b4c",
+  "time" : {
+    "start" : 1655462659609,
+    "stop" : 1655462668036,
+    "duration" : 8427
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1655462643344,
+      "stop" : 1655462643345,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "open HomePage",
+      "time" : {
+        "start" : 1655462659609,
+        "stop" : 1655462663644,
+        "duration" : 4035
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") http://51.132.209.113",
+        "time" : {
+          "start" : 1655462659610,
+          "stop" : 1655462663622,
+          "duration" : 4012
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1655462659610,
+            "stop" : 1655462660726,
+            "duration" : 1116
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\".esh-app-header\") should have(css value height=464px)",
+        "time" : {
+          "start" : 1655462663622,
+          "stop" : 1655462663644,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "set filter type - Pin",
+      "time" : {
+        "start" : 1655462663644,
+        "stop" : 1655462663702,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#type\") select option by value(2)",
+        "time" : {
+          "start" : 1655462663644,
+          "stop" : 1655462663702,
+          "duration" : 58
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "type",
+        "value" : "Pin"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "apply filter",
+      "time" : {
+        "start" : 1655462663702,
+        "stop" : 1655462663965,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"by tag: button; by text: Apply\") hover()",
+        "time" : {
+          "start" : 1655462663702,
+          "stop" : 1655462663825,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"by tag: button; by text: Apply\") click(method: DEFAULT)",
+        "time" : {
+          "start" : 1655462663825,
+          "stop" : 1655462663965,
+          "duration" : 140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "verify showing message",
+      "time" : {
+        "start" : 1655462663965,
+        "stop" : 1655462664438,
+        "duration" : 473
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"by tag: span; by text: Showing 7 of 7 products - Page 1 - 1\") should be(visible)",
+        "time" : {
+          "start" : 1655462663965,
+          "stop" : 1655462664438,
+          "duration" : 473
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "showingProducts",
+        "value" : "7"
+      }, {
+        "name" : "allProducts",
+        "value" : "7"
+      }, {
+        "name" : "currentPage",
+        "value" : "1"
+      }, {
+        "name" : "allPages",
+        "value" : "1"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1655462664438,
+      "stop" : 1655462668036,
+      "duration" : 3598
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1655462664952,
+        "stop" : 1655462665008,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a431e02644dfd522",
+      "name" : "Last screenshot",
+      "source" : "a431e02644dfd522.png",
+      "type" : "image/png",
+      "size" : 1065077
+    }, {
+      "uid" : "50aa8767e38bdf12",
+      "name" : "Page source",
+      "source" : "50aa8767e38bdf12.html",
+      "type" : "text/html",
+      "size" : 21418
+    }, {
+      "uid" : "415d84f66803387a",
+      "name" : "Browser console logs",
+      "source" : "415d84f66803387a.bin",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "654a997546d29532",
+      "name" : "Video",
+      "source" : "654a997546d29532.mp4",
+      "type" : "video/mp4",
+      "size" : 211322
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "all"
+  }, {
+    "name" : "tag",
+    "value" : "filter"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:alexheal.eshop.tests.web.FilterTests]/[method:filterByTypeTest()]"
+  }, {
+    "name" : "feature",
+    "value" : "web"
+  }, {
+    "name" : "layer",
+    "value" : "web"
+  }, {
+    "name" : "story",
+    "value" : "filter"
+  }, {
+    "name" : "owner",
+    "value" : "ValeevAA"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Aleksandr.local"
+  }, {
+    "name" : "thread",
+    "value" : "32340@MacBook-Pro-Aleksandr.local.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "alexheal.eshop.tests.web.FilterTests"
+  }, {
+    "name" : "testClass",
+    "value" : "alexheal.eshop.tests.web.FilterTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterByTypeTest"
+  }, {
+    "name" : "suite",
+    "value" : "alexheal.eshop.tests.web.FilterTests"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "ValeevAA",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "all", "filter", "web" ]
+  },
+  "source" : "1f2f081108c2fe5.json",
+  "parameterValues" : [ ]
+}

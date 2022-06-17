@@ -1,0 +1,261 @@
+[ {
+  "uid" : "59314b8f7d168aa9",
+  "name" : "success get items success get items [10, 1, 14]",
+  "time" : {
+    "start" : 1655462431035,
+    "stop" : 1655462431337,
+    "duration" : 302
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d5415bf5dcbf25a2",
+  "name" : "verify filter no results find message",
+  "time" : {
+    "start" : 1655462651100,
+    "stop" : 1655462659606,
+    "duration" : 8506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d4b2ca61028f138",
+  "name" : "page title should have header text",
+  "time" : {
+    "start" : 1655462669181,
+    "stop" : 1655462674908,
+    "duration" : 5727
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd8e80e6f0f7779a",
+  "name" : "success get items success get items [2147483647, 0, 14]",
+  "time" : {
+    "start" : 1655462430378,
+    "stop" : 1655462430736,
+    "duration" : 358
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6c8954d297bc061b",
+  "name" : "negative page size param 400 error negative page size param 400 error [null]",
+  "time" : {
+    "start" : 1655462431942,
+    "stop" : 1655462432244,
+    "duration" : 302
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e4d227a6b4b917f",
+  "name" : "negative 500 server error negative 500 server error [-2147483648]",
+  "time" : {
+    "start" : 1655462425468,
+    "stop" : 1655462427847,
+    "duration" : 2379
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1f2f081108c2fe5",
+  "name" : "verify filter by type",
+  "time" : {
+    "start" : 1655462659609,
+    "stop" : 1655462668036,
+    "duration" : 8427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d3116f5bc59cd60",
+  "name" : "success authorization demo user test",
+  "time" : {
+    "start" : 1655462631512,
+    "stop" : 1655462643340,
+    "duration" : 11828
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8d9c313d4ebef377",
+  "name" : "emptyResultTest()",
+  "time" : {
+    "start" : 1655462549031,
+    "stop" : 1655462587613,
+    "duration" : 38582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed4a32a9c1c72e1c",
+  "name" : "success get items success get items [2147483647, 2147483647, 14]",
+  "time" : {
+    "start" : 1655462431646,
+    "stop" : 1655462431938,
+    "duration" : 292
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa6936f7f0c81578",
+  "name" : "verify text in order toasts",
+  "time" : {
+    "start" : 1655462681388,
+    "stop" : 1655462750209,
+    "duration" : 68821
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "43018e3bce98eb69",
+  "name" : "negative page size param 400 error negative page size param 400 error [й]",
+  "time" : {
+    "start" : 1655462432651,
+    "stop" : 1655462433047,
+    "duration" : 396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9385142d48da21b3",
+  "name" : "success get items success get items [1, 1, 14]",
+  "time" : {
+    "start" : 1655462431340,
+    "stop" : 1655462431643,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6101029646544b2",
+  "name" : "page console log should not have errors",
+  "time" : {
+    "start" : 1655462674911,
+    "stop" : 1655462681381,
+    "duration" : 6470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc14569363d1e093",
+  "name" : "deleteItemsTest()",
+  "time" : {
+    "start" : 1655462466403,
+    "stop" : 1655462508868,
+    "duration" : 42465
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d2ef25043497e70e",
+  "name" : "success get items success get items [1, 0, 14]",
+  "time" : {
+    "start" : 1655462430740,
+    "stop" : 1655462431032,
+    "duration" : 292
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b567a70c9ece6744",
+  "name" : "negative page size param 400 error negative page size param 400 error [']",
+  "time" : {
+    "start" : 1655462432247,
+    "stop" : 1655462432637,
+    "duration" : 390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1532117a5d3d047",
+  "name" : "successAuthorizationTest()",
+  "time" : {
+    "start" : 1655462433297,
+    "stop" : 1655462466395,
+    "duration" : 33098
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "253113172a34175b",
+  "name" : "negative 500 server error negative 500 server error [-100]",
+  "time" : {
+    "start" : 1655462427920,
+    "stop" : 1655462428237,
+    "duration" : 317
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b8dc4652c54a7d2a",
+  "name" : "negative 500 server error negative 500 server error [-10]",
+  "time" : {
+    "start" : 1655462428242,
+    "stop" : 1655462428557,
+    "duration" : 315
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "98b5c97111ae7c33",
+  "name" : "filterByBrandAndTypeTest()",
+  "time" : {
+    "start" : 1655462508879,
+    "stop" : 1655462548878,
+    "duration" : 39999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e333e2e61ee80a1e",
+  "name" : "verify filter by brand",
+  "time" : {
+    "start" : 1655462643348,
+    "stop" : 1655462651097,
+    "duration" : 7749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ebc5fe8dd999306",
+  "name" : "negative empty page size param 400 error",
+  "time" : {
+    "start" : 1655462428863,
+    "stop" : 1655462429161,
+    "duration" : 298
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "f98bf79b0c7a5f04",
+  "name" : "orderTest()",
+  "time" : {
+    "start" : 1655462587618,
+    "stop" : 1655462631493,
+    "duration" : 43875
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b6efe683d28c58b",
+  "name" : "success get items success get items [10, 0, 14]",
+  "time" : {
+    "start" : 1655462429205,
+    "stop" : 1655462430374,
+    "duration" : 1169
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3f6a34630610957d",
+  "name" : "negative 500 server error negative 500 server error [-1]",
+  "time" : {
+    "start" : 1655462428560,
+    "stop" : 1655462428860,
+    "duration" : 300
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]
